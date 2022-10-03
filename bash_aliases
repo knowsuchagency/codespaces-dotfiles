@@ -1,3 +1,5 @@
+# aliases
+
 alias docker-kill-all='docker kill $(docker ps -q)'
 
 alias tf='terraform'
@@ -14,6 +16,8 @@ alias ga='git add'
 alias gp='git push'
 
 alias dc='docker-compose'
+
+# functions
 
 function gpb {
   git push origin $(git branch | grep \* | cut -d ' ' -f2)
@@ -43,3 +47,7 @@ function activate() {
     done
     echo "Error: Unable to locate a virtual env." >&2
 }
+
+# pyenv 
+
+export PATH="$HOME/.pyenv/bin:$PATH"
