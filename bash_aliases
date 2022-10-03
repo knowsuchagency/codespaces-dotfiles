@@ -47,7 +47,3 @@ function activate() {
     done
     echo "Error: Unable to locate a virtual env." >&2
 }
-
-# pyenv 
-
-export PATH="$HOME/.pyenv/bin:$PATH"
