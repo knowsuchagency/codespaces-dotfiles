@@ -17,6 +17,9 @@ alias gp='git push'
 
 alias dc='docker-compose'
 
+alias tf='terraform'
+alias tg='terragrunt'
+
 # functions
 
 function gpb {
